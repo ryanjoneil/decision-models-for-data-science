@@ -1,5 +1,5 @@
-Optimization-Models-for-Hackers
-===============================
+Decision Models for Data Science
+================================
 
 This is a work in progress about modeling and optimization.
 
@@ -11,7 +11,7 @@ Run IPython Notebook in a VM.
 ```bash
 vagrant up
 vagrant ssh
-cd Optimization-Models-for-Hackers
+cd Decision-Models-for-Data-Science
 ./run.sh
 ```
 

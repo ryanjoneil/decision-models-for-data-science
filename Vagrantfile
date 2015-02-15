@@ -20,6 +20,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 	 		scikit-learn==0.15.2
 	"
 
-	config.vm.synced_folder ".", "/home/vagrant/Optimization-Models-for-Hackers"
+	config.vm.synced_folder ".", "/home/vagrant/Decision-Models-for-Data-Science"
 	config.vm.network "forwarded_port", guest: 8888, host: 8888, auto_correct: true
 end
