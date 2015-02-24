@@ -11,7 +11,7 @@ Run IPython Notebook in a VM.
 ```bash
 vagrant up
 vagrant ssh
-cd Decision-Models-for-Data-Science
+cd decision-nodels-for-data-science
 ./run.sh
 ```
 
