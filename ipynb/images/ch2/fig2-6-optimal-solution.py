@@ -42,6 +42,7 @@ ax.set_ylim(-0.5, 2.5)
 ax.add_patch(patch)
 
 ax.plot([1.5,3.5], [2.5,.5], lw=1, c='red')
+ax.plot([2], [2], marker='D', c="grey")
 
 pyplot.xlabel('x')
 pyplot.ylabel('y')
