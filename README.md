@@ -6,13 +6,11 @@ This is a work in progress about modeling and optimization.
 Usage
 -----
 
-Run IPython Notebook in a VM.
+Run IPython Notebook in a Docker container.
 
 ```bash
-vagrant up
-vagrant ssh
-cd decision-nodels-for-data-science
+./build.sh
 ./run.sh
 ```
 
-Now open http://localhost:8888/. The notebooks are in the `ipynb` folder.
+Now open http://localhost:8888/ in a web browser.
