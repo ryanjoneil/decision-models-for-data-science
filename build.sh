@@ -17,7 +17,7 @@ RUN apt-get install -y python3-scipy
 
 RUN pip3 install cvxopt==1.1.7
 RUN pip3 install ipython[all]==3.0.0
-RUN pip3 install pulp==1.5.7
+RUN pip3 install pulp==1.5.8
 RUN pip3 install scikit-learn==0.16.0
 
 RUN groupadd -r dmfds -g $GID
