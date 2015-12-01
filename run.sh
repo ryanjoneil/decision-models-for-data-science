@@ -1,11 +1,10 @@
 #!/bin/bash
 
 N="dmfds-ipynb"
-P="8888:8888"
+P="9876:8888"
 W="/home/dmfds/ipynb"
 V="$PWD/ipynb:$W:rw"
-I="dmfds"
-C="sudo -H -u dmfds /opt/conda3/bin/ipython notebook --ip=0.0.0.0 --port=8888 --no-browser"
+I="ryanjoneil/dmfds"
 
 docker rm -f $(docker ps -a | grep $N | awk '{print $1}')
-docker run -d --name $N -p $P -w=$W -v=$V $I /bin/bash -c "$C"
+docker run -d --name $N -p $P -w=$W -v=$V $I
