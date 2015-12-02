@@ -12,8 +12,21 @@ Both of us are PhD candidates in Systems Engineering & Operations Research at Ge
 * Ryan J. O'Neil
 * Saba Neyshabouri 
 
-Reading the book
-----------------
+Reading the book on nbviewer
+----------------------------
+
+You can use Jupyter's [http://nbviewer.ipython.org/](http://nbviewer.ipython.org/) to simply read the latest version of the content. This won't allow you to run the examples unless you download the notebooks. If you want to do that, we suggest you follow the instructions in the next section.
+
+Links for the current chapters:
+
+* Part 1.  Linear Models: Understanding relationships between decisions
+  - [Chapter 1. Considering the world algebraically](http://nbviewer.ipython.org/github/ryanjoneil/decision-models-for-data-science/blob/master/ipynb/Chapter%201%20-%20Representing%20the%20world%20algebraically.ipynb)
+  - [Chapter 2. Basic linear models](http://nbviewer.ipython.org/github/ryanjoneil/decision-models-for-data-science/blob/master/ipynb/Chapter%202%20-%20Basic%20linear%20models.ipynb)
+  - Chapter 3. Linear decision making
+  - [Chapter 4. Data fitting & classification](http://nbviewer.ipython.org/github/ryanjoneil/decision-models-for-data-science/blob/master/ipynb/Chapter%204%20-%20Data%20fitting%20%26%20classification.ipynb)
+
+Reading the book locally
+------------------------
 
 You'll need [Docker](https://www.docker.com/). Once you have it, download the latest `dmfds` image:
 
