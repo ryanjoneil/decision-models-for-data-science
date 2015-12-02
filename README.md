@@ -15,7 +15,7 @@ Both of us are PhD candidates in Systems Engineering & Operations Research at Ge
 Reading the book on nbviewer
 ----------------------------
 
-You can use Jupyter's [http://nbviewer.ipython.org/](http://nbviewer.ipython.org/) to simply read the latest version of the content. This won't allow you to run the examples unless you download the notebooks. If you want to do that, we suggest you follow the instructions in the next section.
+You can use Jupyter's [nbviewer](http://nbviewer.ipython.org/) to simply read the latest version of the content. This won't allow you to run the examples unless you download the notebooks. If you want to do that, we suggest you follow the instructions in the next section.
 
 Links for the current chapters:
 
@@ -28,7 +28,7 @@ Links for the current chapters:
 Reading the book locally
 ------------------------
 
-You'll need [Docker](https://www.docker.com/). Once you have it, download the latest `dmfds` image:
+We provide an image with all the libraries and programs already set up, which the code has been tested against. You'll need [Docker](https://www.docker.com/). Once you have it, download the latest `dmfds` image:
 
 ```bash
 docker pull ryanjoneil/dmfds
